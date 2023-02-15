@@ -1,0 +1,161 @@
+* {
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+.topsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(243, 242, 239);
+    min-width: 200px;
+    max-width: 100%;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    margin-left: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #060606;
+    margin-left: 20px;
+}
+
+
+select {
+    border: none;
+    background: fixed;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+select:hover {
+    background-color: #04aa6d;
+}
+
+
+.bar:hover {
+    background-color: #e9e9ec;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(151, 151, 151);
+}
+
+
+.radius2 {
+    background-color: #282a35;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+}
+.radius2:hover {
+    background-color: #6c6f7a;
+    font-size: 18.1px;
+}
+
+
+.radius3 {
+    background-color: #ffc0c7;
+    padding: 15px;
+    border-radius: 50px;
+}
+.radius3:hover {
+    background-color: #fcd5d9;
+    font-size: 18.1px;
+}
+
+
+.radius4 {
+    background-color: #fff4a3;
+    padding: 15px;
+    border-radius: 50px;
+}
+.radius4:hover {
+    background-color: #fdf7c4;
+    font-size: 18.1px;
+}
+
+
+.radius5 {
+    background-color: #04aa6d;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 50px;
+}
+.radius5:hover {
+    background-color: #5ddfaf;
+    font-size: 18.1px;
+}
+
+
+.mid-section {
+    background-color: #282a35;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.mid-section>h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    letter-spacing: -5px;
+    color: #ffffff;
+    
+}
+
+.gap {
+    padding-bottom: 300px;
+    padding-top: 50px;
+}
+
+
+
+.not-sure {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.not-sure:hover {
+    text-decoration: underline;
+    color: #04aa6d;
+    font-size: 40px;
+}
+
+.pink {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffc0c7;
+}
+
+.search-box1 {
+    height: 60px;
+    width: 650px;
+    border-radius: 30px 0px 0px 30px / 30px 0px 0px 30px;
+    padding-left: 50px;   
+}
+
+.search-box2 {
+    height: 60px;
+    border-radius: 0px 30px 30px 0px / 0px 30px 30px 0px;
+    background-image: url(/Images/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #04aa6d;
+    background-size: 40px;
+    width: 100px;
+    margin-left: -9px;
+}
+
